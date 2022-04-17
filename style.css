@@ -1,0 +1,77 @@
+/* @import */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+/* Styles */
+
+html {
+    background-color: grey;
+}
+
+#counternumber-box {
+    border-radius: 25px;
+    background-color: #6b9e1e;
+    padding: 20px; 
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    position: absolute;
+    width: 460px;
+    height: 250px;
+    bottom: 10px;
+    position: absolute;
+    left: 2.5px;
+    z-index: -10;
+    bottom: 25px;
+}
+
+/*decrease 1*/
+
+#decrease1-button {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27.5px;
+    font-weight: bolder;
+    border-radius: 22.5px;
+    color: #313827;
+    background-color: #6b9e1e;
+    padding: 20px;
+    width: 175x;
+    height: 5px;
+    position: absolute;
+    left: 22.5px;
+    bottom: 107.5px;
+    padding-bottom: 55px;
+    border: 5px solid black;
+}
+
+/*increase 1*/
+
+#increase1-button {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27.5px;
+    font-weight: bolder;
+    border-radius: 22.5px;
+    color: #313827;
+    background-color: #6b9e1e;
+    padding: 20px;
+    width: 175x;
+    height: 5px;
+    position: absolute;
+    left: 320px;
+    bottom: 107.5px;
+    padding-bottom: 55px;
+    border: 5px solid black;
+}
+
+.include-all-counter {
+    width: 460px;
+    height: 250px;
+    position: absolute;
+    left: 400px;
+    top: 340px;
+    z-index: -9;
+    /*border: 5px solid black;*/
+}
